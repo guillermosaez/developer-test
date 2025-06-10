@@ -1,5 +1,7 @@
 # Taxually technical test
 
+![](https://github.com/guillermosaez/developer-test/actions/workflows/dotnet.yml/badge.svg)
+
 # 🧪 How to Run the Taxually Technical Test
 
 Follow these steps to set up the environment and test the API endpoints locally:
