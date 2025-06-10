@@ -1,5 +1,37 @@
 # Taxually technical test
 
+# 🧪 How to Run the Taxually Technical Test
+
+Follow these steps to set up the environment and test the API endpoints locally:
+
+## ✅ Step 1: Open a terminal and navigate to the project root
+
+Open your terminal and move to the root directory of the project:
+
+```bash
+cd /path/to/your/project
+```
+
+## ✅ Step 2: Start the services using Docker
+
+Run the following command to start all required infrastructure (e.g., databases):
+
+```bash
+docker compose up
+```
+This will launch all services defined in the docker-compose.yml file.
+
+## ✅ Step 3: Send test requests
+
+Once all services are up and running:
+
+1. Open the file `./Taxually.TechnicalTest/Taxually.Api/Controllers/VatRegistration.http`
+2. Execute the HTTP requests defined in the file, making sure to select the local-docker environment.
+
+⚠️ This file is intended to be used with tools such as the REST Client extension in VS Code.
+
+-----
+
 This solution contains an [API endpoint](https://github.com/Taxually/developer-test/blob/main/Taxually.TechnicalTest/Taxually.TechnicalTest/Controllers/VatRegistrationController.cs) to register a company for a VAT number. Different approaches are required based on the country where the company is based:
 
 - UK companies can register via an API

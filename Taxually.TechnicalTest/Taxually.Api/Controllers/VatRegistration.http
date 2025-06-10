@@ -1,0 +1,40 @@
+@VatRegistrationControllerAddress={{BaseUrl}}/VatRegistration
+
+### Create a vat registration to Great Britain
+
+POST {{VatRegistrationControllerAddress}}
+Content-Type: application/json
+
+{
+  "CompanyName": "CompanyName",
+  "CompanyId": "CompanyId",
+  "Country": "GB"
+}
+
+###
+
+### Create a vat registration to France
+
+POST {{VatRegistrationControllerAddress}}
+Content-Type: application/json
+
+{
+  "CompanyName": "CompanyName",
+  "CompanyId": "CompanyId",
+  "Country": "FR"
+}
+
+###
+
+### Create a vat registration to Germany
+
+POST {{VatRegistrationControllerAddress}}
+Content-Type: application/json
+
+{
+  "CompanyName": "CompanyName",
+  "CompanyId": "CompanyId",
+  "Country": "DE"
+}
+
+###
